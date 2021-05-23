@@ -1,0 +1,13 @@
+<p>heroes works!</p>
+<div  class="field">
+    <label class="label" for="firstName">First name</label>
+    <!-- <input class="input" id="firstName" [{ngModel}]="titel"> -->
+</div>
+<ul>
+    <!--   -->
+    <li *ngFor="let hero of heroes" (click)="ok(hero)">{{ hero.name }}</li>
+</ul>
+<div *ngIf="selectedHero">
+    You selected: {{ selectedHero.name }} with id = {{ selectedHero.id }} 
+    <br><br>
+</div>
