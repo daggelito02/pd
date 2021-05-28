@@ -15,13 +15,14 @@ selectedHero: Hero | undefined;
    {id: 12, name: "Petri"},
    {id: 13, name: "Mattias"},
    {id: 14, name: "Oskar"},
-   {id: 15, name: "Jocke"}
+   {id: 15, name: "Wilde"},
+   {id: 16, name: "Jocke"}
   ];
 
   constructor() { }
 
   ok(hero: Hero) {
-    this.selectedHero = hero; 
+    this.selectedHero = hero;
   }
 
   ngOnInit(): void {
