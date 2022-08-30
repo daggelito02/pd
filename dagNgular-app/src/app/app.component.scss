@@ -1,0 +1,17 @@
+.block {
+  color: red;
+  &--mod {
+    color: green;
+  }
+  &__elem {
+    font-size: 2rem;
+  }
+}
+
+
+<div class="block">
+  <span class="block__elem">A block element</span>
+</div>
+<div class="block block--green">
+  <span class="block__elem">A block element</span>
+</div>
